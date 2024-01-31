@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 require('dotenv').config();
 
-const connection = mongoose.connect('mongodb+srv://bansiya55:lokesh55@live-streaming.gbcm0s3.mongodb.net/QurinomSolutions?retryWrites=true&w=majority', {
+const connection = mongoose.connect('mongodb+srv://rushikeshsasamakar94:y2C56KAAK4mSJc7D@productware.ezpyhlp.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
