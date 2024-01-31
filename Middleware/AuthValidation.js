@@ -7,7 +7,7 @@ const AuthValidator = async (req, res, next) => {
     const token = req.header('Authorization');
     if (token) {
         try {
-            const decoded = jwt.verify(token.split(' ')[1], QurinomSecretKey);
+            const decoded = jwt.verify(token.split(' ')[1], 'QurinomSecretKey');
             req.user = await UserModel.findById(decoded.userId);
             next();
         }
