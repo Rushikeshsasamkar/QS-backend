@@ -8,4 +8,4 @@ const connection = mongoose.connect('mongodb+srv://rushikeshsasamakar94:y2C56KAA
 
 module.exports = {
   connection,
-};
+};  
